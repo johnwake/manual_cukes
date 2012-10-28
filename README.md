@@ -34,3 +34,11 @@ Download the [zip file](https://github.com/ITV/manual_cukes/zipball/master) and 
 ### Usage
 
     rake PROJECT=YOUR_PROJECT_NAME
+
+
+### ToDo: 
+
+- Look into tidy up of Cucucmber reports (Removing the errors and include the Bug Messages)
+- Improve the failed steps - To give the ability to add Failed tests messages
+- How to run single feature file and tags
+- Check works ok when mixed with automated tests
