@@ -8,11 +8,11 @@ For example:
 
     Feature: Search for Cheese on Google
         Given I am on the Google search page
-            *Is this correct [y|n|]*
+            *Is this correct [y|n]*
         When I search for 'Cheese'
-            *Is this correct [y|n|]*
+            *Is this correct [y|n]*
         Then I should see search results containing 'Cheddar'
-            *Is this correct [y|n|]*
+            *Is this correct [y|n]*
 
 By default we generate a time stamped report which will appear in the root directory of the project.
 
@@ -41,7 +41,7 @@ Download the [zip file](https://github.com/ITV/manual_cukes/zipball/master) and 
 
 ### ToDo: 
 
-- Look into tidy up of Cucucmber reports (Removing the errors and include the Bug Messages)
-- Improve the failed steps - To give the ability to add Failed tests messages
+- Look into tidy up of Cucumber reports (removing the errors and include the bug messages)
+- Improve the failed steps - to give the ability to add failed tests messages
 - How to run single feature file and tags
-- Check works ok when mixed with automated tests
+- Check it works OK when mixed with automated tests

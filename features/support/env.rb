@@ -8,6 +8,5 @@ end
 def failing_step
   ask('Please enter issue').chomp
   STDOUT.flush
-  text = gets.chomp
+  gets.chomp
 end
-
