@@ -7,4 +7,8 @@ Cucumber::Rake::Task.new(:cucumber) do |task|
   task.cucumber_opts = "-f pretty -f html --out #{report_title}"
 end
 
+Cucumber::Rake::Task.new(:dry_run) do |task|
+  task.cucumber_opts = "-d"
+end
+
 task :default => :cucumber
