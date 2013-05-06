@@ -35,6 +35,10 @@ Download the [zip file](https://github.com/ITV/manual_cukes/zipball/master) and 
 
     rake PROJECT=YOUR_PROJECT_NAME
 
+### Cucumber's Dry-run
+
+    rake dry_run
+
 ### Single Scenario's
 
     cucumber features/FEATURE_NAME
